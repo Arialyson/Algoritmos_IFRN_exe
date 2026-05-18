@@ -26,3 +26,10 @@ print(f"A soma é {soma}")
 
 #Questão_05
 
+soma = 0 
+
+for c in range(1, 6):
+    n = int(input("Valor: "))
+    if n < 10:
+        soma += n
+print(f"A soma dos valores menores que dez é {soma}")
