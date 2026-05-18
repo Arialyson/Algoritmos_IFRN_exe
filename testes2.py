@@ -3,7 +3,7 @@ import platform
 from time import sleep
 
 def limpa_tela():
-    if platform.system == "windows":
+    if platform.system == "Windows":
         os.system('cls')
     else:
         os.system('clear')
@@ -29,17 +29,20 @@ while True:
     
     if opc == 1:
         valor = float(input("Quanto deseja sacar? "))
-        if valor < 0:
+        if valor > saldo:
             print("Você não possui saldo suficiente para saque, adicione dinheiro para continuar!")
             sleep(5)
-            saldo == 0
-        saldo -= valor
-        move += 1
-        print(f"Seu saldo é: {saldo}")
+        else:
+            saldo -= valor
+            move += 1
+            print("Saque realizado com sucesso!")
+            sleep(5)
     elif opc == 2:
         valor = float(input("Quanto deseja depositar? "))
         saldo += valor
         move += 1
+        print("Depósito realizado com sucesso!")
+        sleep(5)
     elif opc == 3:
         print("---- EXTRATO ----")
         print(f"Seu saldo atual é de R$ {saldo:.2f}")
