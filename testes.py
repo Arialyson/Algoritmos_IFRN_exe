@@ -33,3 +33,11 @@ for c in range(1, 6):
     if n < 10:
         soma += n
 print(f"A soma dos valores menores que dez é {soma}")
+
+soma = 0 
+
+for c in range(1,6):
+    n = int(input("valor: "))
+    soma += n
+
+print(f"A soma dos valores é {soma}")
