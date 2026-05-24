@@ -44,3 +44,8 @@ print(f"A soma dos valores é {soma}")
 
 for c in range(1, 6):
     n = int(input("Digite um número: "))
+
+n1 = int(input("Digite o primeiro valor: "))
+n2 = int(input("Digite o segundo valor: "))
+for c in range(n1, n2):
+    print(c, end=" ")
