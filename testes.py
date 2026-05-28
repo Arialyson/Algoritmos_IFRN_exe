@@ -12,3 +12,4 @@ for c in range(1, 6):
     if num not in lista:
         lista.append(num)
 print(lista)
+print("Hello")
