@@ -13,3 +13,6 @@ for c in range(1, 6):
         lista.append(num)
 print(lista)
 print("Hello")
+
+for c in range(1, 11):
+    print("Olá, mundo!")
