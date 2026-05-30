@@ -16,3 +16,11 @@ print("Hello")
 
 for c in range(1, 11):
     print("Olá, mundo!")
+
+lista = []
+
+for c in range(1, 6):
+    n = str(input("Digite algo: "))
+    lista.append(n)
+    
+print(lista)
