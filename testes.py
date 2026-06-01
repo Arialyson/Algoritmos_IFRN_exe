@@ -26,3 +26,4 @@ for c in range(1, 6):
 print(lista)
 
 print("Qualquer Coisa")
+print("Segunda-feira")
