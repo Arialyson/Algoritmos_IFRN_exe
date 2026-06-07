@@ -27,3 +27,4 @@ print(lista)
 
 print("Qualquer Coisa")
 print("Segunda-feira")
+prirnt('Domingo')
